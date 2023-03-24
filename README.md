@@ -14,6 +14,13 @@ These instructions will help you set up the project on your local machine for de
 
 ### Prerequisites
 
+SAP Digital Manufacturing API information below:
+
+- api_base_url
+- client_id
+- client_secret
+- token_url
+
 This Chatbot uses the following libraries:
 
 - random
@@ -50,7 +57,15 @@ pip install -r requirements.txt
 Then run:
 python -m spacy download en_core_web_sm
 
-4. Run the chatbot:
+4. Update section below in chatbot.py with your SAP Digital Manufacturing details
+
+       # Your API and OAuth credentials
+       api_base_url = 'https://API_URL/order/v1/orders/list'
+       client_id = 'CLIENT_ID'
+       client_secret = 'CLIENT_SECRET'
+       token_url = 'https://SUBACCOUNT.authentication.eu10.hana.ondemand.com/oauth/token'
+
+5. Run the chatbot:
 python chatbot.py
 
 ## Usage
@@ -58,6 +73,7 @@ python chatbot.py
 To interact with the chatbot, simply type your message in the terminal and press Enter. The chatbot will respond to your query or command.
 
 Sample commands are:
+
 - What are the available orders for XXXX plant?
 - Release order 9999999999
 
