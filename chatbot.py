@@ -47,7 +47,7 @@ def process_message(message, access_token):
         plant = entities.get("PLANT")
         if plant:
             response = get_available_orders(access_token, plant)
-            print(f"Last order summary: {last_order_summary}")  # Add this line to check the value of last_order_summary
+            ## print(f"Last order summary: {last_order_summary}")  # Add this line to check the value of last_order_summary
         else:
             response = "Please provide a plant code."
     elif intent == "release_order":
