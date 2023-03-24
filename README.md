@@ -34,13 +34,13 @@ This Chatbot uses the following libraries:
 
 To install the necessary libraries, you can use the following pip commands:
 
-pip install requests
-pip install spacy
-pip install nltk
+      pip install requests
+      pip install spacy
+      pip install nltk
 
 After installing the spacy library, you will also need to download the English language model by running:
 
-python -m spacy download en_core_web_sm
+      python -m spacy download en_core_web_sm
 
 Note that the libraries `random`, `re`, `json`, and `datetime` are part of Python's standard library and do not require separate installation.
 
@@ -54,7 +54,6 @@ cd Digital-Manufacturing-Chatbot
 
 3. Install the required dependencies:
 pip install -r requirements.txt
-Then run:
 python -m spacy download en_core_web_sm
 
 4. Update section below in chatbot.py with your SAP Digital Manufacturing details
@@ -70,7 +69,8 @@ python chatbot.py
 
 ## Usage
 
-To interact with the chatbot, simply type your message in the terminal and press Enter. The chatbot will respond to your query or command.
+To interact with the chatbot, simply type your message in the terminal and press Enter. 
+The chatbot will respond to your query or command.
 
 Sample commands are:
 
