@@ -60,3 +60,9 @@ To interact with the chatbot, simply type your message in the terminal and press
 Sample commands are:
 - What are the available orders for XXXX plant?
 - Release order 9999999999
+
+## Samples
+
+
+
+
