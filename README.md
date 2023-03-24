@@ -63,6 +63,6 @@ Sample commands are:
 
 ## Samples
 
-
-
+![Sample Image 1](https://github.com/manoelfranklins/Digital-Manufacturing-Chatbot/blob/master/Sample1.png?raw=true)
+![Sample Image 2](https://github.com/manoelfranklins/Digital-Manufacturing-Chatbot/blob/master/Sample2.png?raw=true)
 
